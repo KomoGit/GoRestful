@@ -10,10 +10,11 @@ import (
 	"github.com/gorilla/mux"
 )
 
-//Fake database
-
-var books []Book
-var r = mux.NewRouter() //Router
+// Fake database
+var (
+	books []Book
+	r     = mux.NewRouter() //Router
+)
 
 func main() {
 	log.Println("READY. working at http://localhost:8080\nUse Postman to test.")
