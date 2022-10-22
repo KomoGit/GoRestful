@@ -11,17 +11,17 @@ import (
 )
 
 // Book struct
-type Book struct {
-	ID     string  `json:"id"`
-	ISBN   string  `json:"isbn"`
-	Title  string  `json:"title"`
-	Author *Author `json:"author"`
-}
+// type Book struct {
+// 	ID     string  `json:"id"`
+// 	ISBN   string  `json:"isbn"`
+// 	Title  string  `json:"title"`+
+// 	Author *Author `json:"author"`
+// }
 
-type Author struct {
-	FirstName string `json:"firstname"`
-	LastName  string `json:"lastname"`
-}
+// type Author struct {
+// 	FirstName string `json:"firstname"`
+// 	LastName  string `json:"lastname"`
+// }
 
 //Fake database
 
