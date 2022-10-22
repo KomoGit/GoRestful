@@ -16,7 +16,7 @@ var books []Book
 var r = mux.NewRouter() //Router
 
 func main() {
-
+	log.Println("READY. working at http://localhost:8080\nUse Postman to test.")
 	//Mock data
 	books = append(books, Book{ID: "1", ISBN: "23134", Title: "GoLang 101", Author: &Author{FirstName: "James", LastName: "Clyde"}})
 	RouteHandlers()
